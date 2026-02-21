@@ -4,7 +4,8 @@ from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, ContextTypes, filters
 
-TOKEN = "8534771893:AAFrlkVZ1TmD8LDci67r2AVi4HngsAAGzII"
+import os
+TOKEN = os.getenv("8534771893:AAFrlkVZ1TmD8LDci67r2AVi4HngsAAGzII")
 ADMIN_ID = 6589920283
 
 CHANNEL_NAME = "Doctor’s Pustakalay 🩺"
